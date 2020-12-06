@@ -1,5 +1,8 @@
 # MultiVoltageSource
 
+<b> Designed and Programmed by Antonio Perez-Serrano </b> 
+
+
 Welcome to the MultiVoltageSource project, a voltage source with 7 channels thought to be used to power up photonic integrated circuits.
 
 <img src="images/Sources.jpg"
