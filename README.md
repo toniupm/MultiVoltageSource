@@ -27,9 +27,10 @@ It is based on negative linear regulators <a href="https://www.analog.com/en/pro
 </p>
 
 
-<img src="images/PCB_3D.jpg"/
-     title="Inside a MultiVoltageSource.">
+<p align="center">
+<img src="images/PCB_3D.jpg"/ title="KiCad rendering of the PCB.">
+</p>
 
-
-<img src="images/Box_Blender.JPG"/>
-
+<p align="center">
+<img src="images/Box_Blender.JPG"/ title="Blender snapshot of the box.">
+</p>
