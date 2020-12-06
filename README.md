@@ -19,5 +19,5 @@ It is based on negative linear regulators <a href="https://www.analog.com/en/pro
 <img src="images/Inside.jpg"/>
 
 <div>
-<img src="images/PCB_3D.jpg"/><img src="images/Box_Blender.JPG"/>
+<img src="images/PCB_3D.jpg"/ width="400"><img src="images/Box_Blender.JPG"/ width="400">
 </div>
