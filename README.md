@@ -15,7 +15,7 @@ December 2020
 
 <div class="row">
  <div class="column">
-   <img src="images/Inside.jpg">
+   <img src="images/Inside.jpg" width="200">
  </div>
  <div class="column">
    <img src="images/PCB_3D.jpg">
