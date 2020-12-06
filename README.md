@@ -6,7 +6,7 @@
 
 <i> CEMDATIC - ETSI Telecomunicación, Universidad Politécnica de Madrid (UPM) </i>
 
-December 2020
+Version 1.0 - December 2020
 
 <img src="images/Sources.jpg"
      title="MultiVoltageSources finished and ready to work.">
@@ -16,8 +16,13 @@ December 2020
 <p align="justify">
 It is based on negative linear regulators <a href="https://www.analog.com/en/products/lt3090.html#product-overview" target="_blank">LT3090</a> and digital potentiometers <a href="https://www.analog.com/en/products/ad5290.html" target="_blank">AD5290</a> controlled by an Arduino Nano <a href="https://store.arduino.cc/arduino-nano-every" target="_blank">Every</a> or <a href="https://store.arduino.cc/arduino-nano-33-iot" target="_blank">33 IOT</a>. It offers 7 channels ranging -0.2 V to -10.2 V. </p>
 
+
+<p align="center">
 <img src="images/Inside.jpg"/>
 
-<div>
-<img src="images/PCB_3D.jpg"/ width="400"><img src="images/Box_Blender.JPG"/ width="400">
-</div>
+
+<img src="images/PCB_3D.jpg"/>
+
+
+<img src="images/Box_Blender.JPG"/>
+
