@@ -1,7 +1,10 @@
 # MultiVoltageSource
 
 <b> Designed and Programmed by Antonio Perez-Serrano </b> 
+
 <b> PCB Designed by Jose David Ayala </b> 
+
+<b> ETSI Telecomunicación - CEMDATIC </b>
 
 <b> Universidad Politécnica de Madrid (UPM) - 2020</b>
 
