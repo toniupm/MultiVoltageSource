@@ -1,0 +1,380 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +12V-power-MultipleVoltageSource-rescue
+#
+DEF +12V-power-MultipleVoltageSource-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+12V-power-MultipleVoltageSource-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V-power-MultipleVoltageSource-rescue
+#
+DEF +5V-power-MultipleVoltageSource-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-power-MultipleVoltageSource-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# -12V-power-MultipleVoltageSource-rescue
+#
+DEF -12V-power-MultipleVoltageSource-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 50 H I C CNN
+F1 "-12V-power-MultipleVoltageSource-rescue" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 30 50 0 100 -30 50 0 50 F
+X -12V 1 0 0 0 U 50 50 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# AD5290-Potentiometer_Digital-MultipleVoltageSource-rescue
+#
+DEF AD5290-Potentiometer_Digital-MultipleVoltageSource-rescue U 0 40 Y Y 1 F N
+F0 "U" -390 350 50 H V L CNN
+F1 "AD5290-Potentiometer_Digital-MultipleVoltageSource-rescue" 110 360 50 H V L CNN
+F2 "Package_SO:MSOP-10_3x3mm_P0.5mm" 0 -600 50 H I C CNN
+F3 "" -450 400 50 H I C CNN
+$FPLIST
+ MSOP*3x3mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -400 300 400 -400 0 1 10 f
+P 2 0 1 10 175 0 200 0 N
+P 4 0 1 10 150 0 175 25 175 -25 150 0 F
+P 13 0 1 0 200 200 150 200 100 150 150 100 100 50 150 0 100 -50 150 -100 100 -150 150 -200 200 -200 200 -200 200 -200 N
+X RH 1 500 200 100 L 50 50 1 1 P
+X RW 10 500 0 100 L 50 50 1 1 P
+X RL 2 500 -200 100 L 50 50 1 1 P
+X Vss- 3 100 -500 100 U 50 50 1 1 W
+X GND 4 -100 -500 100 U 50 50 1 1 W
+X ~CS~ 5 -500 -200 100 R 50 50 1 1 I
+X CLK 6 -500 0 100 R 50 50 1 1 I C
+X SDI 7 -500 200 100 R 50 50 1 1 I
+X SDO 8 -500 100 100 R 50 50 1 1 O
+X Vdd+ 9 0 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Arduino_Nano_v3.x-MCU_Module-MultipleVoltageSource-rescue
+#
+DEF Arduino_Nano_v3.x-MCU_Module-MultipleVoltageSource-rescue A 0 40 Y Y 1 F N
+F0 "A" -200 1025 50 H V R CNN
+F1 "Arduino_Nano_v3.x-MCU_Module-MultipleVoltageSource-rescue" -200 950 50 H V R CNN
+F2 "Module:Arduino_Nano" 150 -950 50 H I L CNN
+F3 "" 0 -1000 50 H I C CNN
+$FPLIST
+ Arduino*Nano*
+$ENDFPLIST
+DRAW
+S -400 900 400 -900 0 1 10 f
+X D1/TX 1 -500 500 100 R 50 50 1 1 B
+X D7 10 -500 -100 100 R 50 50 1 1 B
+X D8 11 -500 -200 100 R 50 50 1 1 B
+X D9 12 -500 -300 100 R 50 50 1 1 B
+X D10 13 -500 -400 100 R 50 50 1 1 B
+X D11 14 -500 -500 100 R 50 50 1 1 B
+X D12 15 -500 -600 100 R 50 50 1 1 B
+X D13 16 -500 -700 100 R 50 50 1 1 B
+X 3V3 17 100 1000 100 D 50 50 1 1 w
+X AREF 18 500 200 100 L 50 50 1 1 I
+X A0 19 500 0 100 L 50 50 1 1 B
+X D0/RX 2 -500 600 100 R 50 50 1 1 B
+X A1 20 500 -100 100 L 50 50 1 1 B
+X A2 21 500 -200 100 L 50 50 1 1 B
+X A3 22 500 -300 100 L 50 50 1 1 B
+X A4 23 500 -400 100 L 50 50 1 1 B
+X A5 24 500 -500 100 L 50 50 1 1 B
+X A6 25 500 -600 100 L 50 50 1 1 B
+X A7 26 500 -700 100 L 50 50 1 1 B
+X +5V 27 200 1000 100 D 50 50 1 1 w
+X RESET 28 500 600 100 L 50 50 1 1 I
+X GND 29 100 -1000 100 U 50 50 1 1 W
+X RESET 3 500 500 100 L 50 50 1 1 I
+X VIN 30 -100 1000 100 D 50 50 1 1 W
+X GND 4 0 -1000 100 U 50 50 1 1 W
+X D2 5 -500 400 100 R 50 50 1 1 B
+X D3 6 -500 300 100 R 50 50 1 1 B
+X D4 7 -500 200 100 R 50 50 1 1 B
+X D5 8 -500 100 100 R 50 50 1 1 B
+X D6 9 -500 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# C-Device-MultipleVoltageSource-rescue
+#
+DEF C-Device-MultipleVoltageSource-rescue C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C-Device-MultipleVoltageSource-rescue" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x02-Connector_Generic-MultipleVoltageSource-rescue
+#
+DEF Conn_01x02-Connector_Generic-MultipleVoltageSource-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic-MultipleVoltageSource-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x04-Connector_Generic-MultipleVoltageSource-rescue
+#
+DEF Conn_01x04-Connector_Generic-MultipleVoltageSource-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x04-Connector_Generic-MultipleVoltageSource-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x05-Connector_Generic-MultipleVoltageSource-rescue
+#
+DEF Conn_01x05-Connector_Generic-MultipleVoltageSource-rescue J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Conn_01x05-Connector_Generic-MultipleVoltageSource-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_02x07_Odd_Even-Connector_Generic-MultipleVoltageSource-rescue
+#
+DEF Conn_02x07_Odd_Even-Connector_Generic-MultipleVoltageSource-rescue J 0 40 Y N 1 F N
+F0 "J" 50 400 50 H V C CNN
+F1 "Conn_02x07_Odd_Even-Connector_Generic-MultipleVoltageSource-rescue" 50 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 150 -350 1 1 10 f
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_10 10 300 -100 150 L 50 50 1 1 P
+X Pin_11 11 -200 -200 150 R 50 50 1 1 P
+X Pin_12 12 300 -200 150 L 50 50 1 1 P
+X Pin_13 13 -200 -300 150 R 50 50 1 1 P
+X Pin_14 14 300 -300 150 L 50 50 1 1 P
+X Pin_2 2 300 300 150 L 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 300 200 150 L 50 50 1 1 P
+X Pin_5 5 -200 100 150 R 50 50 1 1 P
+X Pin_6 6 300 100 150 L 50 50 1 1 P
+X Pin_7 7 -200 0 150 R 50 50 1 1 P
+X Pin_8 8 300 0 150 L 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FCS8-20-01-L-S-A-TR-FCS8-20-01-L-S-A-TR-MultipleVoltageSource-rescue
+#
+DEF FCS8-20-01-L-S-A-TR-FCS8-20-01-L-S-A-TR-MultipleVoltageSource-rescue J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "FCS8-20-01-L-S-A-TR-FCS8-20-01-L-S-A-TR-MultipleVoltageSource-rescue" 750 200 50 H V L CNN
+F2 "FCS8-20-01-X-S-A" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/FCS8-20-01-L-S-A-TR.pdf" 750 0 50 H I L CNN
+F4 "SAMTEC - FCS8-20-01-L-S-A-TR - CONNECTOR, I/O, RECEPTACLE, 20POS, SMD" 750 -100 50 H I L CNN "Description"
+F5 "200-FCS82001LSATR" 750 -300 50 H I L CNN "Mouser Part Number"
+F6 "https://www.mouser.com/Search/Refine.aspx?Keyword=200-FCS82001LSATR" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F7 "SAMTEC" 750 -500 50 H I L CNN "Manufacturer_Name"
+F8 "FCS8-20-01-L-S-A-TR" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+X 11 11 0 -500 200 R 50 50 0 0 B
+X 12 12 900 -500 200 L 50 50 0 0 B
+X 13 13 0 -600 200 R 50 50 0 0 B
+X 14 14 900 -600 200 L 50 50 0 0 B
+X 15 15 0 -700 200 R 50 50 0 0 B
+X 16 16 900 -700 200 L 50 50 0 0 B
+X 17 17 0 -800 200 R 50 50 0 0 B
+X 18 18 900 -800 200 L 50 50 0 0 B
+X 19 19 0 -900 200 R 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 20 20 900 -900 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# GND-power-MultipleVoltageSource-rescue
+#
+DEF GND-power-MultipleVoltageSource-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-MultipleVoltageSource-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LD1085V50-SamacSys_Parts-MultipleVoltageSource-rescue
+#
+DEF LD1085V50-SamacSys_Parts-MultipleVoltageSource-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "LD1085V50-SamacSys_Parts-MultipleVoltageSource-rescue" 850 200 50 H V L CNN
+F2 "TO270P460X1020X2008-3P" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/LD1085V50.pdf" 850 0 50 H I L CNN
+F4 "LD1085V50, Low Dropout Voltage Regulator, 3A, 5 V +/-1%, 3-Pin TO-220" 850 -100 50 H I L CNN "Description"
+F5 "4.6" 850 -200 50 H I L CNN "Height"
+F6 "511-LD1085V50" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-LD1085V50" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LD1085V50" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X GND 1 0 0 200 R 50 50 0 0 W
+X OUTPUT 2 0 -100 200 R 50 50 0 0 O
+X INPUT 3 0 -200 200 R 50 50 0 0 I
+ENDDRAW
+ENDDEF
+#
+# LT3090IMSE#PBF-SamacSys_Parts-MultipleVoltageSource-rescue
+#
+DEF LT3090IMSE#PBF-SamacSys_Parts-MultipleVoltageSource-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "LT3090IMSE#PBF-SamacSys_Parts-MultipleVoltageSource-rescue" 1050 200 50 H V L CNN
+F2 "SOP65P490X110-13N" 1050 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/lt3090imsepbf/analog-devices" 1050 0 50 H I L CNN
+F4 "LDO Regulator Neg 0V to -32V 0.6A Automotive 12-Pin MSOP EP Tube" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F7 "LT3090IMSE#PBF" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -900 200 -900 200 100 N
+X IN_1 1 0 0 200 R 50 50 0 0 I
+X OUT_1 10 1200 -200 200 L 50 50 0 0 O
+X OUT_2 11 1200 -100 200 L 50 50 0 0 O
+X OUT_3 12 1200 0 200 L 50 50 0 0 O
+X IN_4 13 600 -1100 200 U 50 50 0 0 I
+X IN_2 2 0 -100 200 R 50 50 0 0 I
+X IN_3 3 0 -200 200 R 50 50 0 0 I
+X ILIM 4 0 -300 200 R 50 50 0 0 U
+X IMONP 5 0 -400 200 R 50 50 0 0 U
+X IMONN 6 0 -500 200 R 50 50 0 0 U
+X ~SHDN 7 1200 -500 200 L 50 50 0 0 U
+X SET 8 1200 -400 200 L 50 50 0 0 U
+X GND 9 1200 -300 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# MountingHole-Mechanical-MultipleVoltageSource-rescue
+#
+DEF MountingHole-Mechanical-MultipleVoltageSource-rescue H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "MountingHole-Mechanical-MultipleVoltageSource-rescue" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# R-Device-MultipleVoltageSource-rescue
+#
+DEF R-Device-MultipleVoltageSource-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-Device-MultipleVoltageSource-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
