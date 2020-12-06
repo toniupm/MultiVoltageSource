@@ -11,7 +11,7 @@ December 2020
 <img src="images/Sources.jpg"
      title="MultiVoltageSources finished and ready to work.">
 
-<p align="justify"> Here we describe the MultiVoltageSource project, a voltage source with 7 channels used to power up photonic integrated circuits. It is based on negative linear regulators LT3090 and digital potentiometers AD5290 controlled by an Arduino Nano. It offers 7 channels ranging -0.2 V to -10.2 V. </p>
+<p align="justify"> Here we describe the MultiVoltageSource project, a voltage source with 7 channels used to power up photonic integrated circuits. It is based on negative linear regulators <a href=”https://www.analog.com/en/products/lt3090.html#product-overview”>LT3090</a> and digital potentiometers AD5290 controlled by an Arduino Nano. It offers 7 channels ranging -0.2 V to -10.2 V. </p>
 
 <img src="images/Inside.jpg" width="400"/>
 
