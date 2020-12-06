@@ -14,7 +14,7 @@ Version 1.0 - December 2020
 <p align="justify"> Here we describe the MultiVoltageSource project, a voltage source with 7 channels used to power up photonic integrated circuits. </p>
 
 <p align="justify">
-It is based on negative linear regulators <a href="https://www.analog.com/en/products/lt3090.html#product-overview" target="_blank">LT3090</a> and digital potentiometers <a href="https://www.analog.com/en/products/ad5290.html" target="_blank">AD5290</a> controlled by an Arduino Nano <a href="https://store.arduino.cc/arduino-nano-every" target="_blank">Every</a> or <a href="https://store.arduino.cc/arduino-nano-33-iot" target="_blank">33 IOT</a>. It offers 7 channels ranging from -0.2 V to -10.2 V. The schematics and PCB design is included in the <i> Kicad Project </i> folder. </p>
+It is based on negative linear regulators <a href="https://www.analog.com/en/products/lt3090.html#product-overview" target="_blank">LT3090</a> and digital potentiometers <a href="https://www.analog.com/en/products/ad5290.html" target="_blank">AD5290</a> controlled by an Arduino Nano <a href="https://store.arduino.cc/arduino-nano-every" target="_blank">Every</a> or <a href="https://store.arduino.cc/arduino-nano-33-iot" target="_blank">33 IOT</a>. It offers 7 channels ranging from -0.2 V to -10.2 V and uses a &plusmn; 15 V or &plusmn; 12 V power supply. The schematics and PCB design can be found in the <i> Kicad Project </i> folder. </p>
 
 
 <p align="center">
