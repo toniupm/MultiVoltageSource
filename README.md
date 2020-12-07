@@ -77,4 +77,10 @@ The cost of a MultiVoltage source is around 200 €.
 <img src="images/logos.png"/ title="Logos">
 </p>
 
+<p align="justify">
 We acknowledge support from Comunidad de Madrid through project MULTI-GAS-PIC (APOYO-JOVENES-KXHJ8C-16-VCKM78) and Ministerio de Ciencia e Innovación of Spain through project LIDERA (RTI2018-094118-B-C21).
+</p>
+
+<p align="justify">
+"Acción financiada por la Comunidad de Madrid en el marco del Convenio Plurianual con la Universidad Politécnica de Madrid <b> en la línea de actuación estímulo a la investigación de jóvenes doctores </b>"
+</p>
