@@ -72,3 +72,7 @@ The cost of a MultiVoltage source is around 200 €.
                <li> Creation a stand-alone control software based on Processing </li>
           </ul>     
 </p>
+
+<p align="center">
+<img src="images/logos.png"/ title="Logos">
+</p>
