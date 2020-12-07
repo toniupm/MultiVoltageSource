@@ -28,9 +28,20 @@ Version 1.0 - December 2020
 <p align="justify">
      The list of the materials used are:
      <ul>
-          <li> 1 Arduino Nano Every or 33 IOT </li>
-          <li> 7 chips LT3090 </li>
-          <li> 14 chips AD5290 </li>
+          <li> 1 Arduino Nano <a href="https://store.arduino.cc/arduino-nano-every" target="_blank">Every</a> or <a href="https://store.arduino.cc/arduino-nano-33-iot" target="_blank">33 IOT</a> </li>
+          <li> 7 chips <a href="https://www.analog.com/en/products/lt3090.html#product-overview" target="_blank">LT3090</a> </li>
+          <li> 14 chips <a href="https://www.analog.com/en/products/ad5290.html" target="_blank">AD5290</a> </li>
+          <li> 1 LCD display 20x4 characters </li>
+          <li> 1 i2c/SPI LCD backpack <a href="https://learn.adafruit.com/i2c-spi-lcd-backpack" target="_blank">i2c/SPI LCD backpack</a></li> with the SPI enabled
+          <li> 1 Embedded Linear Power Supply Encapsulated PS2127 &plusmn; 15 V</li>
+          <li> 1 Voltage Regulator to 5 V LD1085V50 </li>
+          <li> 7 Resistors 2k &#8486; </li>
+          <li> 7 Resistors 2.2k &#8486; </li>
+          <li> 7 Resistors 10k &#8486; </li>
+          <li> 7 Capacitors 4.7 uF </li>
+          <li> 2 Capacitors 10 uF </li>
+          <li> 14 Capacitors 100 nF </li>
+          <li> Several PCB connectors including 1 <a href="https://www.samtec.com/products/fcs8-20-01-l-s-a-tr" target="_blank">FCS8-20-01-L-S-A-TR</a> connector </li>
      </ul>          
 </p>
 
