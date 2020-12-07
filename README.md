@@ -57,10 +57,18 @@ The cost of a MultiVoltage source is around 200 €.
 
 
 <p align="justify">
-     The <b> software </b>
+     The <b> software </b> can be found in the <i> Software </i> folder. It contains the Arduino Firmware and the LabVIEW project and functions to control the MultiVoltageSource. LabVIEW 2020 version has been used to create the controlling software. At this moment, only serial communication through a USB cable is supported. Next versions will include WiFi communication.   
 </p>
 
 
 <p align="center">
 <img src="images/Box_Blender.JPG"/ title="Blender snapshot of the box.">
+</p>
+
+<p align="justify">
+     Future improvements/changes:
+          <ul>
+               <li> WiFi communication using Arduino Nano 33 IOT </li>
+               <li> Creation a stand-alone control software based on Processing </li>
+          </ul>     
 </p>
